@@ -151,7 +151,7 @@ function spawnClouds() {
     cloud.y = Math.round(random(displayHeight-756,displayHeight-716));
     cloud.addImage(cloudImage);
     cloud.scale = 0.5;
-    cloud.velocityX = -3;
+    cloud.velocityX = -3.1;
     
      //assign lifetime to the variable
     cloud.lifetime = 200;
